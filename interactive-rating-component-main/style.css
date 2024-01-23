@@ -1,0 +1,203 @@
+/* ROOT */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+body {
+    background-color: #121417;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Overpass", sans-serif;
+}
+
+.maincontainer {
+
+    background: #19202A;
+    width: 550px;
+    height: 550px;
+    border-radius: 50px;
+    padding: 40px;
+
+}
+
+.iconstar {
+
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+
+
+
+}
+
+.textarea {
+
+    display: inline;
+    align-items: start;
+    text-align: left;
+    padding: 20px;
+}
+
+.maintext {
+    color: white;
+    font-family: "Overpass", sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.text {
+    color: hsl(216, 12%, 54%);
+    font-family: "Overpass", sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    line-height: 1.5em;
+
+}
+
+.circle,
+.circle4,
+.circle5 {
+    width: 75px;
+    height: 75px;
+    margin: 10px auto;
+    border-radius: 50%;
+    border: 0;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: white;
+}
+
+
+.circle:hover,
+.circle4:hover,
+.circle5:hover {
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+
+}
+
+.numbers {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+
+.button {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.submit {
+    cursor: pointer;
+    border: 0;
+    width: 450px;
+    height: 60px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    font-weight: 700;
+    border-radius: 50px;
+    letter-spacing: 0.2em;
+}
+
+
+.submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+
+
+
+/* SECOND CARD */
+
+
+.iconsvg {
+
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.iconsvg img {
+    width: 200px
+}
+
+.textarea2 {
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.maincontainer2 {
+    display: none;
+    background: #19202A;
+    width: 550px;
+    height: 550px;
+    border-radius: 50px;
+    padding: 40px;
+
+}
+
+
+.textcontainer {
+
+    font-family: "Overpass", sans-serif;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    display: inline;
+
+    padding: 10px 20px;
+    border-radius: 20px;
+
+}
+
+.tytext {
+    margin-top: 20px;
+    color: white;
+    font-family: "Overpass", sans-serif;
+    font-size: 2em;
+    font-weight: 600;
+    padding: 30px;
+}
+
+.text2 {
+    padding-top: 20px;
+    color: hsl(216, 12%, 54%);
+    font-family: "Overpass", sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    line-height: 1.5em;
+
+}
+
+.selecionado {
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap')
